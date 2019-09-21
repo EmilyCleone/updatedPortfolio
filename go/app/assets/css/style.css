@@ -7,6 +7,61 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ #mainInfo{
+   margin-left: 30px;
+ }
+ .container2 { 
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #777777;
+  background-color: white;
+  font-size: 16px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  border: 2px solid #dddddd;
+
+}
+.contactForm{
+  padding: 0px 20px 10px 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.formMultilineIn {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #c4b707;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+
+
 :root {
   --blue: #0030AE;
   --indigo: #6610f2;
